@@ -5,13 +5,7 @@
 
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/normalize.css?v=1557175373" rel="stylesheet" type="text/css">
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/webflow.css?v=1557175373" rel="stylesheet" type="text/css">
-<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/helenica.webflow.css?v=1557175373" rel="stylesheet" type="text/css">
-<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-<link href="<?php echo get_stylesheet_directory_uri(); ?>/images/webclip.jpg?v=1557175373" rel="shortcut icon" type="image/x-icon">
-<link href="<?php echo get_stylesheet_directory_uri(); ?>/images/Helenica-logo.jpg?v=1557175373" rel="apple-touch-icon">
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-  
+
 
 
 <?php wp_enqueue_script("jquery"); wp_head(); ?><?php $udesly_fe_items = udesly_set_fe_items('index'); ?></head>
