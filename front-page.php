@@ -810,349 +810,340 @@
 
       <div class="servicios cool alturacool" id="cools">
         <div class="seccion-cool w-clearfix">
-          <div class="estatua-cool">
-
-<!-- menu coolsculpting -->
-
-            <div class="div-block-52">
-              
-
-              <div data-click="1" class="div-block-53 estatua2" data-filter="Cuello"></div>
-              <div data-click="2" class="div-block-54 estatua2" data-filter="Brazos"></div>
-              <div data-click="3" class="div-block-55 estatua2" data-filter="Abdomen y flancos"></div>
-              <div data-click="4" class="div-block-56 estatua2" data-filter="Abdomen y flancos"></div>
-              <div data-click="5" class="div-block-57 estatua2" data-filter="Abdomen y flancos"></div>
-              <div data-click="3" class="div-block-58 estatua2" data-filter="Abdomen y flancos"></div>
-              <div data-click="6" class="div-block-59 estatua2" data-filter="Muslos"></div>
-              <div data-click="7" class="div-block-60 estatua2" data-filter="Muslos"></div>
-              <div data-click="8" class="div-block-61 estatua2" data-filter="Muslos"></div>
-
-            </div>
-            
-            <img src="http://helenica.foro.codes/wp-content/uploads/2019/05/coolsculpting-GIF.gif">
-            
-            </div>
-
           <div class="div-block-11">
-
-            <h1 class="titulo-interno-servicios" data-udy-fe="text_-2113019471,text_-2066083236,text_1971815722"><?php echo $udesly_fe_items['text_-2113019471']; ?><br><?php echo $udesly_fe_items['text_-2066083236']; ?><br><?php echo $udesly_fe_items['text_1971815722']; ?></h1>
-            <h2 class="subtitulo-interno-servicios"><span class="span-services cool" data-udy-fe="text_381449726"><?php echo $udesly_fe_items['text_381449726']; ?></span><br><span class="span-services cool" data-udy-fe="text_6602575"><?php echo $udesly_fe_items['text_6602575']; ?></span><br><span class="span-services cool" data-udy-fe="text_-1253067546"><?php echo $udesly_fe_items['text_-1253067546']; ?></span></h2>
-            <p class="parrafo-interno-servicios cool" data-udy-fe="text_-467397553,text_-1167252619"><?php echo $udesly_fe_items['text_-467397553']; ?><br><br><?php echo $udesly_fe_items['text_-1167252619']; ?></p>
+            <h1 class="titulo-interno-servicios">The world’s #1<br>non-surgical<br>fat reduction treatment.</h1>
+            <h2 class="subtitulo-interno-servicios"><span class="span-services cool">Elimina la grasa con el único</span><br><span class="span-services cool">tratamiento no-quirúrgico</span><br><span class="span-services cool">aprobado por la FDA en EE.UU.</span></h2>
+            <p class="parrafo-interno-servicios cool">La tecnología CoolSculpting es capaz de esculpir el cuerpo sin necesidad de recurrir a ningún tipo de cirugía, ya que trabaja con un sistema de enfriamiento controlado de alta precisión para atacar de manera delicada y efectiva las células grasas que se encuentran debajo de la piel.<br><br>Con más de 7 millones de pacientes alrededor del mundo, el Coolsculpting ha comprobado lo seguro, confiable y eficiente, capaz de entregar resultados comprobables, notables y duraderos que te harán lucir espectacular desde cualquier ángulo debido a que se puede utilizar en distintas zonas del cuerpo.</p>
           </div>
-
-          <div class="div-block-12">
-            <p class="paragraph-6" data-udy-fe="text_-1630286397,text_93674348"><?php echo $udesly_fe_items['text_-1630286397']; ?><br><?php echo $udesly_fe_items['text_93674348']; ?></p>
+          <div class="segunda-columna w-clearfix">
+            <div class="body-zone">
+              <p class="texto-bodu-zone">Click the body zone <br>to see the results!</p>
+            </div>
+            <div class="logo-y-bandera-fda"><img src="images/Flag_1Flag.jpg" alt="" class="image-14"><img src="images/FDA-Cleared_1FDA-Cleared.jpg" alt="" class="image-15"></div>
+            <div class="estatua-cool">
+              <div class="contenedor-estatua-cool">
+                <div class="div-block-52">
+                  <div data-click="1" class="cuello estatua2" data-filter="Cuello y barbilla"></div>
+                  <div data-click="2" class="axila1 estatua2" data-filter="Brazos y axila"></div>
+                  <div data-click="3" class="pectoral estatua2" data-filter="Pectorales"></div>
+                  <div data-click="4" class="axila2 estatua2" data-filter="Brazos y axila"></div>
+                  <div data-click="5" class="abdomen estatua2" data-filter="Abdomen"></div>
+                  <div data-click="3" class="flancos1 estatua2" data-filter="Flancos y espalda"></div>
+                  <div data-click="6" class="flancos-2 estatua2" data-filter="Flancos y espalda"></div>
+                  <div data-click="7" class="flancos-3 estatua2" data-filter="Flancos y espalda"></div>
+                  <div data-click="8" class="muslos1 estatua2" ata-filter="Muslos"></div>
+                  <div data-click="9" class="muslos-2 estatua-2" ata-filter="Muslos"></div>
+                  <div data-click="10" class="muslos-3 estatua2" ata-filter="Muslos"></div>
+                </div>
+                <img src="images/coolsculpting-GIF.gif" alt="" class="image-2">
+            </div>
+            </div>
           </div>
           
-          
-<!-- carrusel coolsculpting -->
-
-          <div class="carrusel-sil carrusel-cool">
-
-            <div  class="divazul col ocultar" data-filter="Cuello">
-              <?php
-                // The Arguments
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'post_status'      => 'publish',
-                    'cat' => '31',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-32 "  data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-              
-                <?php if ( get_field( 'antes') ) { ?>
-                <img src="<?php the_field( 'antes' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-              
-
-
+          <div class="carrusel-y-nav w-clearfix">
+            <div class="slider-cool">
+                <div class="divazul col ocultar" data-filter="Cuello">
+                    <?php
+                                // The Arguments
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'post_status'      => 'publish',
+                                    'cat' => '31',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-32 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'antes') ) { ?>
+                        <img src="<?php the_field( 'antes' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                </div>
+                
+                <div class="divazul col ocultar" data-filter="Brazos">
+                    <?php
+                                // The Arguments
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'post_status'      => 'publish',
+                                    'cat' => '30',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-32 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'antes') ) { ?>
+                        <img src="<?php the_field( 'antes' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                </div>
+                
+                <div class="divazul col mostrar" data-filter="Abdomen y flancos">
+                    <?php
+                                // The Arguments
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'post_status'      => 'publish',
+                                    'cat' => '19',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-32 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'antes') ) { ?>
+                        <img src="<?php the_field( 'antes' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                </div>
+                
+                <div class="divazul col ocultar" data-filter="Muslos">
+                    <?php
+                                // The Arguments
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'post_status'      => 'publish',
+                                    'cat' => '32',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-32 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'antes') ) { ?>
+                        <img src="<?php the_field( 'antes' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                </div>
+                
+                <div class="divazul2 col2 ocultar" data-filter="Cuello">
+                
+                    <?php
+                                // The Arguments  
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'cat' => '31',
+                                    'post_status' => 'publish',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-34 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'despues') ) { ?>
+                        <img src="<?php the_field( 'despues' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                
+                </div>
+                
+                <div class="divazul2 col2 ocultar" data-filter="Brazos">
+                
+                    <?php
+                                // The Arguments  
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'cat' => '30',
+                                    'post_status' => 'publish',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-34 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'despues') ) { ?>
+                        <img src="<?php the_field( 'despues' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                
+                </div>
+                
+                <div class="divazul2 col2 mostrar" data-filter="Abdomen y flancos">
+                
+                    <?php
+                                // The Arguments  
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'cat' => '19',
+                                    'post_status' => 'publish',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-34 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'despues') ) { ?>
+                        <img src="<?php the_field( 'despues' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                
+                </div>
+                
+                <div class="divazul2 col2 ocultar" data-filter="Muslos">
+                
+                    <?php
+                                // The Arguments  
+                                $args = array(
+                
+                                    'post_type' => 'coolsculpting_', 
+                                    'cat' => '32',
+                                    'post_status' => 'publish',
+                                    'posts_per_page'=>-1
+                                );  
+                                // The Query
+                                $the_query = new WP_Query( $args );
+                              ?>
+                    <?php
+                                // If we have the posts...
+                                if ( $the_query->have_posts() ) : 
+                              ?>
+                    <!-- Start the loop the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                
+                    <div class="div-block-34 "
+                        data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
+                
+                        <?php if ( get_field( 'despues') ) { ?>
+                        <img src="<?php the_field( 'despues' ); ?>" />
+                        <?php } ?>
+                
+                    </div>
+                
+                    <?php endwhile; endif; // end of the loop. ?>
+                    <?php wp_reset_postdata(); ?>
+                
+                
+                
+                
+                </div>
+                
             </div>
-
-            <div  class="divazul col ocultar" data-filter="Brazos">
-              <?php
-                // The Arguments
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'post_status'      => 'publish',
-                    'cat' => '30',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-32 "  data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-              
-                <?php if ( get_field( 'antes') ) { ?>
-                <img src="<?php the_field( 'antes' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-              
-
-
+            <div class="div-block-63 controles controles-sil">
+                <p id="ficol" class="prev">  Prev </p> 
+                <p id="fdcol" class="next"> Next </p>
             </div>
-
-            <div  class="divazul col mostrar" data-filter="Abdomen y flancos">
-              <?php
-                // The Arguments
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'post_status'      => 'publish',
-                    'cat' => '19',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-32 "  data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-              
-                <?php if ( get_field( 'antes') ) { ?>
-                <img src="<?php the_field( 'antes' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-              
-
-
-            </div>
-
-             <div  class="divazul col ocultar" data-filter="Muslos">
-              <?php
-                // The Arguments
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'post_status'      => 'publish',
-                    'cat' => '32',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-32 "  data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-              
-                <?php if ( get_field( 'antes') ) { ?>
-                <img src="<?php the_field( 'antes' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-              
-
-
-            </div>
-
-            <div  class="divazul2 col2 ocultar" data-filter="Cuello">
-              
-              <?php
-                // The Arguments  
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'cat' => '31',
-                    'post_status' => 'publish',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-34 " data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-
-                <?php if ( get_field( 'despues') ) { ?>
-                <img src="<?php the_field( 'despues' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-
-
-
-              
-            </div>
-
-            <div  class="divazul2 col2 ocultar" data-filter="Brazos">
-              
-              <?php
-                // The Arguments  
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'cat' => '30',
-                    'post_status' => 'publish',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-34 " data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-
-                <?php if ( get_field( 'despues') ) { ?>
-                <img src="<?php the_field( 'despues' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-
-
-
-              
-            </div>
-
-            <div  class="divazul2 col2 mostrar" data-filter="Abdomen y flancos">
-              
-              <?php
-                // The Arguments  
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'cat' => '19',
-                    'post_status' => 'publish',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-34 " data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-
-                <?php if ( get_field( 'despues') ) { ?>
-                <img src="<?php the_field( 'despues' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-
-
-
-              
-            </div>
-
-            <div  class="divazul2 col2 ocultar" data-filter="Muslos">
-              
-              <?php
-                // The Arguments  
-                $args = array(
-
-                    'post_type' => 'coolsculpting_', 
-                    'cat' => '32',
-                    'post_status' => 'publish',
-                    'posts_per_page'=>-1
-                );  
-                // The Query
-                $the_query = new WP_Query( $args );
-              ?>
-              <?php
-                // If we have the posts...
-                if ( $the_query->have_posts() ) : 
-              ?>
-              <!-- Start the loop the loop --> 
-              <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
-
-              <div class="div-block-34 " data-filter="<?php $area_corporal_term = get_field( 'area_corporal' );?><?php if ( $area_corporal_term ): ?><?php echo $area_corporal_term->name; ?><?php endif; ?>">
-
-                <?php if ( get_field( 'despues') ) { ?>
-                <img src="<?php the_field( 'despues' ); ?>" />
-                <?php } ?>
-
-              </div>
-
-              <?php endwhile; endif; // end of the loop. ?>
-              <?php wp_reset_postdata(); ?>  
-
-
-
-              
-            </div>
-
-            
-
-            
-
-            <div id="w-node-458094d873d8-32fea85f" class="div-block-13 w-clearfix">
-            <img src="<?php echo $udesly_fe_items['image_-1773111242']->src; ?>" width="31" alt="<?php echo $udesly_fe_items['image_-1773111242']->alt; ?>" class="image-4" srcset="<?php echo $udesly_fe_items['image_-1773111242']->srcset; ?>" data-udy-fe="image_-1773111242">
-            <img src="<?php echo $udesly_fe_items['image_-561671258']->src; ?>" width="106" alt="<?php echo $udesly_fe_items['image_-561671258']->alt; ?>" class="image-3" srcset="<?php echo $udesly_fe_items['image_-561671258']->srcset; ?>" data-udy-fe="image_-561671258">
-            </div>
-
-            <div class="controles controles-sil"> 
-            <p id="ficol" class="prev"> < Prev </p>
-            <p id="fdcol" class="next"> Next > </p>
           </div>
-
-          </div>
-
         </div>
       </div>
     </div>
