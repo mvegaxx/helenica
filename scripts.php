@@ -159,7 +159,7 @@ $('.titulo-services-4').click(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
-    
+        asNavFor:'.divazul2',
         speed: 500,
         dots:true,
         swipe:false,

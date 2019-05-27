@@ -193,10 +193,10 @@
 
           <div id="w-node-7fd28f5f1628-32fea85f" class="carrusel-sil">
 
-          <div class="controles controles-sil"> 
+          <!-- <div class="controles controles-sil"> 
             <p id="fisil" class="prev"> < Prev </p>
             <p id="fdsil" class="next"> Next > </p>
-          </div>
+          </div> -->
             
           <!-- carrusel antes silhoute -->
 
@@ -495,20 +495,14 @@
             <div class="div-block-18">
               <div class="contianer-estatuas">
                 <div class="carruselestatuas">
-                  <div data-click="1" class="estatuas2 hover" data-filter="Flancos"></div>
-                  <div data-click="5" class="estatuas1 hover" data-filter="Barbilla"></div>
-                  <div data-click="6" class="div-block-40 hover" data-filter="Brazos"></div>
-                  <div data-click="7" class="div-block-41 hover" data-filter="Brazos"></div>
-                  <div data-click="8" class="div-block-42 hover" data-filter="Flancos"></div>
-                  <div data-click="2" class="div-block-43 hover" data-filter="Flancos"></div>
-                  <div data-click="3" class="div-block-44 hover" data-filter="Muslos"></div>
-                  <div data-click="4" class="div-block-45 hover" data-filter="Muslos"></div>
-                  <div data-click="9" class="div-block-46 hover" data-filter="Muslos"></div>  
-                  <div data-click="10" class="div-block-47 hover" data-filter="Muslos"></div>
-                  <div data-click="11" class="div-block-48 hover" data-filter="Aumento Senos"></div>
-                  <div data-click="12" class="div-block-49 hover" data-filter="Abdomen"></div>
-                  <div data-click="13" class="div-block-50 hover" data-filter="Muslos"></div>
-                  <div data-click="14" class="div-block-51 hover" data-filter="Muslos"></div>
+                  <div data-click="1" class="abdomen-cool hover" data-filter="Abdomen"></div>
+                  <div data-click="5" class="cuello-cool hover" data-filter="Barbilla"></div>
+                  <div data-click="6" class="brazos-cool hover" data-filter="Brazos"></div>
+                  <div data-click="7" class="senos-cool hover" data-filter="Aumento Senos"></div>
+                  <div data-click="8" class="espalda-cool hover" data-filter="Flancos"></div>
+                  <div data-click="2" class="muslos1-cool hover" data-filter="Muslos"></div>
+                  <div data-click="3" class="muslos2-cool hover" data-filter="Muslos"></div>
+                  <div data-click="4" class="muslos3-cool hover" data-filter="Muslos"></div>
                 </div>
 
 
@@ -788,11 +782,11 @@
           
             <p class="paragraph-10" data-udy-fe="text_-1630286397,text_93674348"><?php echo $udesly_fe_items['text_-1630286397']; ?><br><?php echo $udesly_fe_items['text_93674348']; ?></p>
 
-            <div class="controles controles-laser"> 
+            <!-- <div class="controles controles-laser"> 
               <p id="filaser" class="prev"> < Prev </p>
               <p id="fdlaser" class="next"> Next > </p>
           </div>
-          
+           -->
       
 
         </div>
@@ -829,9 +823,9 @@
                   <div data-click="3" class="flancos1 estatua2" data-filter="Flancos y espalda"></div>
                   <div data-click="6" class="flancos-2 estatua2" data-filter="Flancos y espalda"></div>
                   <div data-click="7" class="flancos-3 estatua2" data-filter="Flancos y espalda"></div>
-                  <div data-click="8" class="muslos1 estatua2" ata-filter="Muslos"></div>
-                  <div data-click="9" class="muslos-2 estatua-2" ata-filter="Muslos"></div>
-                  <div data-click="10" class="muslos-3 estatua2" ata-filter="Muslos"></div>
+                  <div data-click="8" class="muslos1 estatua2" data-filter="Muslos"></div>
+                  <div data-click="9" class="muslos-2 estatua2" data-filter="Muslos"></div>
+                  <div data-click="10" class="muslos-3 estatua2" data-filter="Muslos"></div>
                 </div>
                 <img src="http://helenica.foro.codes/wp-content/uploads/2019/05/coolsculpting-GIF.gif" alt="" class="image-2">
             </div>
@@ -840,7 +834,7 @@
           
           <div class="carrusel-y-nav w-clearfix">
             <div class="slider-cool">
-                <div class="col cool-slide ocultar" data-filter="Cuello">
+                <div class="col cool-slide ocultar" data-filter="Cuello y barbilla">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -876,7 +870,7 @@
                 
                 </div>
                 
-                <div class="col cool-slide ocultar" data-filter="Brazos">
+                <div class="col cool-slide ocultar" data-filter="Brazos y axila">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -912,7 +906,7 @@
                 
                 </div>
                 
-                <div class="col cool-slide mostrar" data-filter="Abdomen y flancos">
+                <div class="col cool-slide mostrar" data-filter="Flancos y espalda">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -984,7 +978,7 @@
                 
                 </div>
                 
-                <div class="col2 cool2-slide ocultar" data-filter="Cuello">
+                <div class="col2 cool2-slide ocultar" data-filter="Cuello y barbilla">
                 
                     <?php
                                 // The Arguments  
@@ -1022,7 +1016,7 @@
                 
                 </div>
                 
-                <div class="col2 cool2-slide ocultar" data-filter="Brazos">
+                <div class="col2 cool2-slide ocultar" data-filter="Brazos y axila">
                 
                     <?php
                                 // The Arguments  
@@ -1060,7 +1054,7 @@
                 
                 </div>
                 
-                <div class="col2 cool2-slide mostrar" data-filter="Abdomen y flancos">
+                <div class="col2 cool2-slide mostrar" data-filter="Flancos y espalda">
                 
                     <?php
                                 // The Arguments  
@@ -1137,10 +1131,10 @@
                 </div>
                 
             </div>
-            <div class="div-block-63 controles controles-sil">
+            <!-- <div class="div-block-63 controles controles-sil">
                 <p id="ficol" class="prev">  Prev </p> 
                 <p id="fdcol" class="next"> Next </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
