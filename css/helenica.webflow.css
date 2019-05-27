@@ -732,7 +732,7 @@ a{
 }
 
 .parrafo-interno-servicios.cool {
-  width: 83%;
+  width: 100%;
 }
 
 .menu-imagenes-silhoutte {
@@ -877,7 +877,6 @@ a{
   width: 73.4vw;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 3vw;
   padding-left: 9.3vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 0px;
@@ -1785,9 +1784,14 @@ a{
   padding: 0;
   outline:none;
   }
+
+
+
+
 .carrusel2 .slick-prev,.carrusel2 .slick-next {
   right:0
   }
+
   html body a.w-webflow-badge{
     opacity: 0 !important;
     display: none !important;
@@ -1808,6 +1812,26 @@ a{
     object-fit: contain;
     width: 100%;
     height: 100%;
+}
+
+
+.divazul2 .slick-arrow{
+  display: none !important;
+}
+.slide-bbl .slick-arrow{
+  display: none !important;
+}
+
+.slide-halo .slick-arrow{
+  display: none !important;
+}
+
+.cool-slide .slick-next{
+  bottom: -120%;
+}
+
+.cool-slide .slick-prev{
+  bottom: -135%;
 }
 
 @media (max-width: 991px) {
@@ -3288,7 +3312,7 @@ a{
 }
 
 .div-block-11 {
-  width: 27vw;
+  width: 24vw;
   float: left;
 }
 
@@ -3465,7 +3489,7 @@ a{
 
 .segunda-columna {
   position: relative;
-  width: 29%;
+  width: 35%;
   margin-top: 16%;
   margin-left: 1vw;
   float: left;
@@ -3527,7 +3551,7 @@ a{
 }
 
 .carrusel-y-nav {
-  width: 17.4vw;
+  width: 16.4vw;
   padding-top: 14%;
   float: left;
 }
@@ -3594,3 +3618,5 @@ a{
     float: left;
   }
 }
+
+
