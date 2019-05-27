@@ -5,7 +5,13 @@
 
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/normalize.css?v=1557175373" rel="stylesheet" type="text/css">
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/webflow.css?v=1557175373" rel="stylesheet" type="text/css">
-
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/helenica.webflow.css?v=1557175373" rel="stylesheet" type="text/css">
+<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/images/webclip.jpg?v=1557175373" rel="shortcut icon" type="image/x-icon">
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/images/Helenica-logo.jpg?v=1557175373" rel="apple-touch-icon">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  
 
 
 <?php wp_enqueue_script("jquery"); wp_head(); ?><?php $udesly_fe_items = udesly_set_fe_items('index'); ?></head>
@@ -843,7 +849,7 @@
 
           <div class="carrusel-sil carrusel-cool">
 
-            <div id="w-node-22c40c20a99f-32fea85f" class="divazul col ocultar" data-filter="Cuello">
+            <div  class="divazul col ocultar" data-filter="Cuello">
               <?php
                 // The Arguments
                 $args = array(
@@ -878,7 +884,7 @@
 
             </div>
 
-            <div id="w-node-22c40c20a99f-32fea85f" class="divazul col ocultar" data-filter="Brazos">
+            <div  class="divazul col ocultar" data-filter="Brazos">
               <?php
                 // The Arguments
                 $args = array(
@@ -913,7 +919,7 @@
 
             </div>
 
-            <div id="w-node-22c40c20a99f-32fea85f" class="divazul col mostrar" data-filter="Abdomen y flancos">
+            <div  class="divazul col mostrar" data-filter="Abdomen y flancos">
               <?php
                 // The Arguments
                 $args = array(
@@ -948,7 +954,7 @@
 
             </div>
 
-             <div id="w-node-22c40c20a99f-32fea85f" class="divazul col ocultar" data-filter="Muslos">
+             <div  class="divazul col ocultar" data-filter="Muslos">
               <?php
                 // The Arguments
                 $args = array(
@@ -983,7 +989,7 @@
 
             </div>
 
-            <div id="w-node-22c40c20a9a0-32fea85f" class="divazul2 col2 ocultar" data-filter="Cuello">
+            <div  class="divazul2 col2 ocultar" data-filter="Cuello">
               
               <?php
                 // The Arguments  
@@ -1020,7 +1026,7 @@
               
             </div>
 
-            <div id="w-node-22c40c20a9a0-32fea85f" class="divazul2 col2 ocultar" data-filter="Brazos">
+            <div  class="divazul2 col2 ocultar" data-filter="Brazos">
               
               <?php
                 // The Arguments  
@@ -1057,7 +1063,7 @@
               
             </div>
 
-            <div id="w-node-22c40c20a9a0-32fea85f" class="divazul2 col2 mostrar" data-filter="Abdomen y flancos">
+            <div  class="divazul2 col2 mostrar" data-filter="Abdomen y flancos">
               
               <?php
                 // The Arguments  
@@ -1094,7 +1100,7 @@
               
             </div>
 
-            <div id="w-node-22c40c20a9a0-32fea85f" class="divazul2 col2 ocultar" data-filter="Muslos">
+            <div  class="divazul2 col2 ocultar" data-filter="Muslos">
               
               <?php
                 // The Arguments  
@@ -1147,29 +1153,12 @@
 
           </div>
 
-          
-
-
-
-          <div class="div-block-62">
-            <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
-              <div class="mask-2 w-slider-mask">
-                <div class="slide-8 w-slide"></div>
-                <div class="w-slide"></div>
-              </div>
-              <div class="w-slider-arrow-left">
-                <div class="w-icon-slider-left"></div>
-              </div>
-              <div class="w-slider-arrow-right">
-                <div class="w-icon-slider-right"></div>
-              </div>
-              <div class="w-slider-nav w-round"></div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
 
+
+<!-- DERMASCULPTING -->
 
     <div class="container-service">
       <h2 class="boton titulo-services-4" data-udy-fe="text_-2127162371"><?php echo $udesly_fe_items['text_-2127162371']; ?></h2>
