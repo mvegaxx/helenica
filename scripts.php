@@ -192,6 +192,29 @@ $('.titulo-services-4').click(function () {
         
     });
 
+//COOLSCULPTING
+
+    $('.cool-slide').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: false,
+        asNavFor: '.cool2-slide',
+       
+        
+    });
+
+    $('.cool2-slide').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: false,
+        
+        
+    }); 
+
 
 
 //DERMASCULPTING
@@ -310,14 +333,14 @@ $('.titulo-services-4').click(function () {
     $("#ficol").click(function () {
         
         $('.col .slick-prev').trigger('click');
-        $('.col2 .slick-prev').trigger('click');
+      
      
     });
 
     $("#fdcol").click(function () {
        
         $('.col .slick-next').trigger('click');
-        $('.col2 .slick-next').trigger('click');
+        
     
     });
 

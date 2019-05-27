@@ -836,9 +836,7 @@ a{
   height: 21.5vw;
 }
 
-.slick-prev, .slick-next{
-  display: none !important;
-}
+
 
 .paragraph-5 {
   position: absolute;
@@ -3537,7 +3535,7 @@ a{
   width: 17.2vw;
   height: 21vw;
   float: left;
-  background-color: #e90f0f;
+  
 }
 
 .logo-y-bandera-fda {

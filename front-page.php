@@ -840,7 +840,7 @@
           
           <div class="carrusel-y-nav w-clearfix">
             <div class="slider-cool">
-                <div class="col ocultar" data-filter="Cuello">
+                <div class="col cool-slide ocultar" data-filter="Cuello">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -876,7 +876,7 @@
                 
                 </div>
                 
-                <div class=" col ocultar" data-filter="Brazos">
+                <div class="col cool-slide ocultar" data-filter="Brazos">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -912,7 +912,7 @@
                 
                 </div>
                 
-                <div class="col mostrar" data-filter="Abdomen y flancos">
+                <div class="col cool-slide mostrar" data-filter="Abdomen y flancos">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -948,7 +948,7 @@
                 
                 </div>
                 
-                <div class=" col ocultar" data-filter="Muslos">
+                <div class="col cool-slide ocultar" data-filter="Muslos">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -984,7 +984,7 @@
                 
                 </div>
                 
-                <div class=" col2 ocultar" data-filter="Cuello">
+                <div class="col2 cool2-slide ocultar" data-filter="Cuello">
                 
                     <?php
                                 // The Arguments  
@@ -1022,7 +1022,7 @@
                 
                 </div>
                 
-                <div class=" col2 ocultar" data-filter="Brazos">
+                <div class="col2 cool2-slide ocultar" data-filter="Brazos">
                 
                     <?php
                                 // The Arguments  
@@ -1060,7 +1060,7 @@
                 
                 </div>
                 
-                <div class=" col2 mostrar" data-filter="Abdomen y flancos">
+                <div class="col2 cool2-slide mostrar" data-filter="Abdomen y flancos">
                 
                     <?php
                                 // The Arguments  
@@ -1098,7 +1098,7 @@
                 
                 </div>
                 
-                <div class=" col2 ocultar" data-filter="Muslos">
+                <div class="col2 cool2-slide ocultar" data-filter="Muslos">
                 
                     <?php
                                 // The Arguments  
