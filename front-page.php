@@ -652,7 +652,7 @@
               
                 
             </div>
-            
+
             <div class="w-slider ocultar" data-filter="Muslos">
 
                 <?php
@@ -781,9 +781,7 @@
               
                 
             </div>
-            
-          
-            
+
           </div>
 
           
@@ -819,7 +817,7 @@
             <div class="body-zone">
               <p class="texto-bodu-zone">Click the body zone <br>to see the results!</p>
             </div>
-            <div class="logo-y-bandera-fda"><img src="images/Flag_1Flag.jpg" alt="" class="image-14"><img src="images/FDA-Cleared_1FDA-Cleared.jpg" alt="" class="image-15"></div>
+            <div class="logo-y-bandera-fda"><img src="<?php bloginfo('template_url'); ?>/images/Flag_1Flag.jpg" alt="" class="image-14"><img src="<?php bloginfo('template_url'); ?>/images/FDA Cleared.jpg" alt="" class="image-15"></div>
             <div class="estatua-cool">
               <div class="contenedor-estatua-cool">
                 <div class="div-block-52">
@@ -835,14 +833,14 @@
                   <div data-click="9" class="muslos-2 estatua-2" ata-filter="Muslos"></div>
                   <div data-click="10" class="muslos-3 estatua2" ata-filter="Muslos"></div>
                 </div>
-                <img src="images/coolsculpting-GIF.gif" alt="" class="image-2">
+                <img src="http://helenica.foro.codes/wp-content/uploads/2019/05/coolsculpting-GIF.gif" alt="" class="image-2">
             </div>
             </div>
           </div>
           
           <div class="carrusel-y-nav w-clearfix">
             <div class="slider-cool">
-                <div class="divazul col ocultar" data-filter="Cuello">
+                <div class="col ocultar" data-filter="Cuello">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -878,7 +876,7 @@
                 
                 </div>
                 
-                <div class="divazul col ocultar" data-filter="Brazos">
+                <div class=" col ocultar" data-filter="Brazos">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -914,7 +912,7 @@
                 
                 </div>
                 
-                <div class="divazul col mostrar" data-filter="Abdomen y flancos">
+                <div class="col mostrar" data-filter="Abdomen y flancos">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -950,7 +948,7 @@
                 
                 </div>
                 
-                <div class="divazul col ocultar" data-filter="Muslos">
+                <div class=" col ocultar" data-filter="Muslos">
                     <?php
                                 // The Arguments
                                 $args = array(
@@ -986,7 +984,7 @@
                 
                 </div>
                 
-                <div class="divazul2 col2 ocultar" data-filter="Cuello">
+                <div class=" col2 ocultar" data-filter="Cuello">
                 
                     <?php
                                 // The Arguments  
@@ -1024,7 +1022,7 @@
                 
                 </div>
                 
-                <div class="divazul2 col2 ocultar" data-filter="Brazos">
+                <div class=" col2 ocultar" data-filter="Brazos">
                 
                     <?php
                                 // The Arguments  
@@ -1062,7 +1060,7 @@
                 
                 </div>
                 
-                <div class="divazul2 col2 mostrar" data-filter="Abdomen y flancos">
+                <div class=" col2 mostrar" data-filter="Abdomen y flancos">
                 
                     <?php
                                 // The Arguments  
@@ -1100,7 +1098,7 @@
                 
                 </div>
                 
-                <div class="divazul2 col2 ocultar" data-filter="Muslos">
+                <div class=" col2 ocultar" data-filter="Muslos">
                 
                     <?php
                                 // The Arguments  
