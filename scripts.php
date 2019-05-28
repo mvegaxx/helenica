@@ -172,7 +172,6 @@ $('.titulo-services-4').click(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
-      
         speed: 500,
         swipe:false,
         accessibility:false,
@@ -188,7 +187,6 @@ $('.titulo-services-4').click(function () {
         slidesToScroll: 2,
         arrows:true,
         dots: true,
-       
         
     });
 
