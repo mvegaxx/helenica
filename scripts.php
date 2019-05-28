@@ -175,6 +175,7 @@ $('.titulo-services-4').click(function () {
         speed: 500,
         swipe:false,
         accessibility:false,
+        dots:true,
         
         
     });  
@@ -199,6 +200,7 @@ $('.titulo-services-4').click(function () {
         arrows: true,
         fade: false,
         asNavFor: '.cool2-slide',
+        dots:true,
        
         
     });
@@ -209,6 +211,7 @@ $('.titulo-services-4').click(function () {
         slidesToScroll: 1,
         arrows: false,
         fade: false,
+        dots:true,
         
         
     }); 
@@ -265,13 +268,11 @@ $('.titulo-services-4').click(function () {
 
     //silhoutte
     $(".titulo-service-1").click(function () {
-        $('.sil .slick-prev').trigger('click');
-        $('.sil2 .slick-prev').trigger('click');  
+        $('.divazul ul li button').trigger('click');  
     });
 
     $(".div-menu-sil").click(function () {
-        $('.sil .slick-prev').trigger('click');
-        $('.sil2 .slick-prev').trigger('click');      
+        $('.divazul ul li button').trigger('click');
 
     });
 
@@ -294,12 +295,12 @@ $('.titulo-services-4').click(function () {
     //laserbrush
 
     $(".titulo-services-2").click(function () {
-        $('.w-slider .slick-prev').trigger('click');
+        $('.w-slider ul li button').trigger('click');
     });
 
 
     $(".hover").click(function () {
-        $('.slick-next').trigger('click');
+        $('.w-slider ul li button').trigger('click');
     });
 
     
@@ -318,13 +319,11 @@ $('.titulo-services-4').click(function () {
     //coolsculpting
 
     $(".titulo-service-3").click(function () {
-        $(' .col .slick-next').trigger('click');
-        $(' .col2 .slick-next').trigger('click');
+        $('.cool-slide ul li button').trigger('click');
     });
 
     $(".estatua2").click(function () {
-        $(' .col .slick-next').trigger('click');
-        $(' .col2 .slick-next').trigger('click');
+        $('.cool-slide ul li button').trigger('click');
 
     });
 
