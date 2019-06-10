@@ -210,9 +210,16 @@ a{
 .container-slider {
   display: block;
   overflow: hidden;
-  height: 31.2vw;
+  height: 0vw;
   position: relative;
 }
+
+.container-slider.mostrar{
+ 
+  height: 31.2vw;
+  
+}
+
 
 
 .workshop{
@@ -3577,6 +3584,8 @@ a{
   max-width: 77%;
 }
 
+.workshop.oculto
+
 
 @media (max-width: 991px) {
 .seccion-cool {
@@ -3621,5 +3630,7 @@ a{
     float: left;
   }
 }
+
+
 
 

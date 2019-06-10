@@ -51,6 +51,10 @@ $('.titulo-service-1').click(function () {
         }, 500, function() {
             // Animation complete.
         });
+
+        $laser.hide().css({ height : 0 });
+        $cool.hide().css({ height : 0 });
+        $derma.hide().css({ height : 0 });
         
         contador = contador +1
     }
@@ -76,6 +80,10 @@ $('.titulo-services-2').click(function () {
         }, 500, function() {
             // Animation complete.
         });
+
+        $sil.hide().css({ height : 0 });
+        $cool.hide().css({ height : 0 });
+        $derma.hide().css({ height : 0 });
         
         contador = contador +1
     }
@@ -101,7 +109,11 @@ $('.titulo-service-3').click(function () {
         }, 500, function() {
             // Animation complete.
         });
-        
+
+        $sil.hide().css({ height : 0 });
+        $laser.hide().css({ height : 0 });
+        $derma.hide().css({ height : 0 });
+                
         contador = contador +1
     }
         
@@ -126,6 +138,11 @@ $('.titulo-services-4').click(function () {
         }, 500, function() {
             // Animation complete.
         });
+
+        $sil.hide().css({ height : 0 });
+        $laser.hide().css({ height : 0 });
+        $cool.hide().css({ height : 0 });
+
         
         contador = contador +1
     }
@@ -268,11 +285,13 @@ $('.titulo-services-4').click(function () {
 
     //silhoutte
     $(".titulo-service-1").click(function () {
-        $('.divazul ul li button').trigger('click');  
+        $('#w-node-c9fe4d6547a3-32fea85f .slick-arrow').toggleClass('ocultar');  
+        
     });
 
     $(".div-menu-sil").click(function () {
         $('.divazul ul li button').trigger('click');
+        $('#w-node-c9fe4d6547a3-32fea85f .slick-arrow').removeClass('ocultar');  
 
     });
 
@@ -295,12 +314,13 @@ $('.titulo-services-4').click(function () {
     //laserbrush
 
     $(".titulo-services-2").click(function () {
-        $('.w-slider ul li button').trigger('click');
+         $('.w-slider .slick-arrow').toggleClass('ocultar');  
     });
 
 
     $(".hover").click(function () {
         $('.w-slider ul li button').trigger('click');
+        $('.w-slider .slick-arrow').removeClass('ocultar'); 
     });
 
     
@@ -318,12 +338,16 @@ $('.titulo-services-4').click(function () {
     
     //coolsculpting
 
-    $(".titulo-service-3").click(function () {
-        $('.cool-slide ul li button').trigger('click');
+    $(".titulo-service-3").click(function (e) {
+       
+        $('.cool-slide .slick-arrow').toggleClass('ocultar'); 
+        e.preventDefault();
+        
     });
 
     $(".estatua2").click(function () {
         $('.cool-slide ul li button').trigger('click');
+         $('.cool-slide .slick-arrow').removeClass('ocultar'); 
 
     });
 
