@@ -130,8 +130,9 @@
     <?php endwhile; endif; // end of the loop. ?>
     <?php wp_reset_postdata(); ?> 
     </div> 
-    <div class="workshop">
+    <div class="workshop bajo">
       <h1 class="titulo-workshop">THE WORKSHOP</h1>
+      <p class="click-open">Da click para conocer</p>
       <div class="flechas-workshop">
         <div id="fiwork" class="flechaizq-work"><</div>
         <div id="fdwork" class="flechader-work">></div>

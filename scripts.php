@@ -8,7 +8,20 @@
 
 
 $( window ).on( "load", function() {
-    $("#animacion").addClass("animacion-out");
+
+
+
+$("#animacion").addClass("animacion-out");
+
+ $(".titulo-services-2").click(function () {
+         $('.w-slider .slick-arrow').toggleClass('ocultar');  
+    });
+
+
+$(".click-open").click(function () {
+         $('.workshop').toggleClass('bajo');
+         $('.container-slider').toggleClass('mostrar-carrusel');
+    });
 
 
 
@@ -49,12 +62,14 @@ $('.titulo-service-1').click(function () {
         $sil.show("fast").animate({
             height: heightsil
         }, 500, function() {
-            // Animation complete.
-        });
-
         $laser.hide().css({ height : 0 });
         $cool.hide().css({ height : 0 });
         $derma.hide().css({ height : 0 });
+
+            // Animation complete.
+        });
+
+        
         
         contador = contador +1
     }
@@ -78,12 +93,12 @@ $('.titulo-services-2').click(function () {
         $laser.show("fast").animate({
             height: heightlaser
         }, 500, function() {
-            // Animation complete.
-        });
-
         $sil.hide().css({ height : 0 });
         $cool.hide().css({ height : 0 });
         $derma.hide().css({ height : 0 });
+            // Animation complete.
+        });
+
         
         contador = contador +1
     }
@@ -107,13 +122,13 @@ $('.titulo-service-3').click(function () {
         $cool.show("fast").animate({
             height: heightcool
         }, 500, function() {
-            // Animation complete.
-        });
-
         $sil.hide().css({ height : 0 });
         $laser.hide().css({ height : 0 });
         $derma.hide().css({ height : 0 });
                 
+            // Animation complete.
+        });
+
         contador = contador +1
     }
         
